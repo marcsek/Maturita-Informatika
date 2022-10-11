@@ -32,8 +32,8 @@ public class Maturita1 {
 
 // 2048 x 1536 = 3 145 728 p
 // 3 145 728 p * 24 b = 75 497 472 b
-// 75 497 472 / 8 = 9 437 184 B
-// 9 437 184 / 1024 = 9 216 kB
+// 75 497 472 b / 8 = 9 437 184 B
+// 9 437 184 B / 1024 = 9 216 kB
 // 9 216 kB / 1024 = 9 MB
 
 // 2 - Najmenej kolko MMS musí Elenka poslať, ak chce polsať celú footgrafiu
