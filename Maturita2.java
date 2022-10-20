@@ -21,15 +21,15 @@ public class Maturita2 {
         double x1 = (-b + Math.sqrt(diskriminant)) / (2 * a);
         double x2 = (-b - Math.sqrt(diskriminant)) / (2 * a);
 
-        if (diskriminant == 0) {
+        if (a == 0 || diskriminant < 0) {
+            System.out.println("Rovnica nemá riešenie..");
+        } else if (diskriminant == 0) {
             System.out.println("Rovnica má 1 koren..");
-            System.out.printf("Koreň 1: %.1f%n", x1);
+            System.out.printf("Koreň 1: %.1f", x1);
         } else if (diskriminant > 0) {
             System.out.println("Rovnica má 2 korene..");
             System.out.printf("Koreň 1: %.1f%n", x1);
             System.out.printf("Koreň 2: %.1f", x2);
-        } else {
-            System.out.println("Rovnica nemá riešenie..");
         }
     }
 }
