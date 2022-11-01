@@ -1,3 +1,6 @@
+/**** ??? *****/
+/* Fibonacci */
+
 public class Maturita6 {
     public static void main(String[] args) {
 

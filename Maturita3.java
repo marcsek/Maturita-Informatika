@@ -1,5 +1,5 @@
-/*******************/
-/* Vypocet Obsahu */
+/******* ??? *******/
+/* Výpočet Obsahu */
 
 import java.util.Scanner;
 

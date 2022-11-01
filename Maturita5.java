@@ -1,3 +1,6 @@
+/************* ??? **************/
+/* 2 rozmerné pole od 95 po 99 */
+
 import java.util.Random;
 
 public class Maturita5 {
