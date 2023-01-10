@@ -21,6 +21,6 @@ public class Maturita8 {
     }
 
     public static boolean vyhodnotVystup(char pismeno) {
-        return pismeno >= 65 && pismeno <= 90 || pismeno >= 97 && pismeno <= 122;
+        return pismeno >= 'a' && pismeno <= 'z' || pismeno >= 'A' && pismeno <= 'Z';
     }
 }

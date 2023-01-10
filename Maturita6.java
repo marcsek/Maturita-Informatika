@@ -14,7 +14,7 @@ public class Maturita6 {
         long[] fiboPole = new long[30];
         fiboPole[0] = 1;
         fiboPole[1] = 1;
-        for (int i = 2; i < 30; i++) {
+        for (int i = 2; i < fiboPole.length; i++) {
             fiboPole[i] = fiboPole[i - 2] + fiboPole[i - 1];
         }
 
